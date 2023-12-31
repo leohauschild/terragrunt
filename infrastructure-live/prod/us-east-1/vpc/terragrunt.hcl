@@ -6,7 +6,6 @@ terraform {
   source = "tfr:///terraform-aws-modules/vpc/aws?version=5.2.0"
 }
 
-# Indicate the input values to use for the variables of the module.
 inputs = {
   name = "vpc-terragrunt-prod"
   cidr = "10.0.0.0/16"
