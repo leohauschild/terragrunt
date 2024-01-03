@@ -52,8 +52,8 @@ remote_state {
 
 # Configure root level variables that all resources can inherit. This is especially helpful with multi-account configs
 # where terraform_remote_state data sources are placed directly into the modules.
-inputs = merge(
-  local.account_vars.locals,
-  local.region_vars.locals,
-  #local.environment_vars.locals,
-)
+# inputs = merge(
+#   local.account_vars.locals,
+#   local.region_vars.locals,
+#   #local.environment_vars.locals,
+# )
